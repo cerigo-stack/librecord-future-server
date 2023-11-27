@@ -1,0 +1,3 @@
+as main.asm -g -o main.out
+ld main.out -g -o main
+
