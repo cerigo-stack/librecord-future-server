@@ -37,8 +37,7 @@ _start:
 	mov	$0, %rdx
 	syscall
 	
-	push	%rax	
-	pop	%rdi
+	mov	%rax, %rdi
 	
 	//write to connection
 	mov	$1, %rax
